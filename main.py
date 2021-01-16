@@ -17,8 +17,8 @@ def remove_walls(current, next):
         current.walls['bottom'] = False
         next.walls['top'] = False
 
-raz = width, height = 1202, 500
-size = 40
+raz = width, height = 802, 602
+size = 20
 cols, rows = width // size, height // size
 
 pygame.init()
@@ -97,4 +97,4 @@ while True:
     elif stack:
         currentCell = stack.pop()
     pygame.display.flip()
-    clock.tick(30)
+    clock.tick(100)
