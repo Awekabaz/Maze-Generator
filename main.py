@@ -1,4 +1,4 @@
-import pygame
+import pygame #
 from random import choice
 
 def remove_walls(current, next):
